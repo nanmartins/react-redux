@@ -1,5 +1,6 @@
 // External libraries from node_modules
 // example of sintax to import external libraries
+
 import $ from 'jquery';
 
 // Internal Dependencies
@@ -20,6 +21,25 @@ $(document).ready(function() {
   console.log('jQuery just checked that the DOM is ready!');
 })
 
+  // debugger
+
+// Testing Babel
+
+class Greeter {
+  constructor(name) {
+    this.name = name;
+  }
+
+  sayHello() {
+    document.body.innerHTML = `Hello ${this.name}!`;
+  }
+}
+
+const greeter = new Greeter(name);
+console.log(greeter.sayHello());
+
+
+//
 
 
 
