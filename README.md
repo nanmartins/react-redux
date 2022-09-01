@@ -24,11 +24,12 @@ Babel - Installed but is missing the code for webpack.config.js.
         if the modules on webpack.config.js is rigth
 
         ** Babel error:
+        ** Babel errors fixed. Setup done!!!
 
-[webpack-cli] Invalid configuration object. Webpack has been initialized using a configuration object that does not match the API schema.
- - configuration.module has an unknown property 'loaders'. These properties are valid:
-   object { defaultRules?, exprContextCritical?, exprContextRecursive?, exprContextRegExp?, exprContextRequest?, generator?, noParse?, parser?, rules?, strictExportPresence?, strictThisContextOnImports?, unknownContextCritical?, unknownContextRecursive?, unknownContextRegExp?, unknownContextRequest?, unsafeCache?, wrappedContextCritical?, wrappedContextRecursive?, wrappedContextRegExp? }
-   -> Options affecting the normal modules (`NormalModuleFactory`).
-   Did you mean module.rules or module.rules.*.use?
 
-   When return to work on it, fix that problem.
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+React basics
+
+        - 
